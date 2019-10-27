@@ -1,0 +1,14 @@
+{% extends  'registration/base.html' %}
+
+{% block main %}
+    <div class="card">
+    <div class="card-body">
+    <h4 class="card-title">HOME</h4>
+
+    <p>Welcome {{username}}</p>
+    <a  href="{% url 'contact_list'%}">contact</a>
+    
+    </div>
+    </div>
+
+{% endblock %}
